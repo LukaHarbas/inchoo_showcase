@@ -1,0 +1,100 @@
+body, article h2.color, article h2.price, article .in-between, label {
+  font-family: "Titillium Web", system-ui;
+}
+header .sign-in, nav a, h1, article h2, .table-component a {
+  font-family: "Bebas Neue", system-ui;
+}
+header {
+  line-height: 3;
+}
+header p {
+  font-size: 14px;
+}
+header a {
+  font-size: 13px;
+}
+@media (max-width: 640px) {
+  header a {
+    font-size: 9px;
+  }
+}
+header .sign-in {
+  font-size: 18px;
+}
+.navigation img {
+  filter: brightness(0);
+  transition: filter 0.5s ease-out;
+}
+.navigation:hover img {
+  filter: none;
+}
+.navigation a {
+  transition: color 0.5s ease-out;
+}
+.navigation:hover a {
+  color: #E0862C;
+}
+.input-field {
+  transition: border-color 0.5s ease-out;
+}
+.input-field:hover {
+  border-color: #828282;
+}
+input:focus-visible, select:focus-visible {
+  outline: 0;
+}
+.new-size {
+  transition: transform 0.5s ease-out;
+}
+.new-size:hover {
+  transform: scale(1.1);
+}
+article h1 {
+  font-size: 40px;
+}
+article a {
+  font-size: 13px;
+}
+tr {
+  border-bottom: 2px solid #F5F5F5;
+  vertical-align: top;
+}
+td {
+  padding: 10px;
+}
+td .border-black, td .price {
+  line-height: 3;
+}
+td .actions {
+  padding-top: 11px;
+}
+#shipping-tax-form-button.active h2 {
+  color: #008421;
+}
+#shipping-tax-form-button img {
+  filter: brightness(0);
+  transform: rotate(45deg);
+  transition: transform 0.3s ease-out;
+}
+#shipping-tax-form-button.active img {
+  filter: none;
+  transform: rotate(0);
+}
+#shipping-tax-form {
+  display: none;
+}
+#shipping-tax-form.active {
+  display: flex;
+}
+#shipping-tax-form select, #shipping-tax-form input {
+  transition: border-color 0.5s ease-out;
+}
+#shipping-tax-form select:hover, #shipping-tax-form input:hover {
+  border-color: black;
+}
+input[type='radio'] {
+  accent-color: black;
+}
+footer a {
+  font-size: 13px;
+}/*# sourceMappingURL=styles.css.map */
